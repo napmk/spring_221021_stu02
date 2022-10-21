@@ -17,7 +17,7 @@ public class MainClass {
 		System.out.println(student1.getAge());
 		System.out.println(student1.getHobbys());
 		System.out.println(student1.getHeight());
-	//	System.out.println(student1.getWeight());
+		System.out.println(student1.getWeight());
 		
 		StudentInfo studentInfo =ctx.getBean("studentInfo1", StudentInfo.class);
 		Student studentHong = studentInfo.getStudent();
